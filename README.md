@@ -56,21 +56,21 @@ In there:
 - `babel-preset-env`: Preset helps you use the latest Javascript in many different environments (different browsers). This package simply supports converting ES6, ES7, ES8, ES... to ES5.
 - `babel-preset-react`: Support converting JSX to Javascript.
 
-**Install CSS-Loader and Style-Loader:** 
+### Install CSS-Loader and Style-Loader:
 
 2 libraries make it possible for webpack to load .css files as modules.
 ```
 $ npm i css-loader style-loader --save-dev
 ```
 
-**Install html-webpack-plugin:***
+### Install html-webpack-plugin:
 
 Automate adding `build/bundle.js` to `public/index.html`.
 ```
 $ npm i html-webpack-plugin --save-dev
 ```
 
-Add html-webpack-plugin to the project.
+**Add html-webpack-plugin to the project.**
 ```javascript
 ...
 const HtmlWebpackPlugin = require("html-webpack-plugin")
@@ -85,7 +85,7 @@ module.exports = {
 }
 ```
 
-**To run Webpack on Web Server, install webpack-dev-server:**
+### To run Webpack on Web Server, install webpack-dev-server:
 ```
 $ npm i webpack-dev-server --save-dev
 ```
