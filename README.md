@@ -27,6 +27,11 @@ That is when loading the latest version of React if you want to specify which ve
 $ npm i react@18.2.0 react-dom@18.2.0
 ```
 
+Update the project when React and ReactDOM have new versions.
+```
+$ npm i react@latest react-dom@latest
+```
+
 **Install Webpack:**
 ```
 $ npm i webpack webpack-cli --save-dev
@@ -41,7 +46,7 @@ In there:
 - `babel-core`: Convert ES6 to ES5.
 - `babel-loader`: Allows transferring Javascript files using Babel & Webpack.
 - `babel-preset-env`: Preset helps you use the latest Javascript in many different environments (different browsers). This package simply supports converting ES6, ES7, ES8, ES... to ES5.
-- `babel-preset-react`: Hỗ trợ chuyển đổi JSX về Javascript.
+- `babel-preset-react`: Support converting JSX to Javascript.
 
 **Install CSS-Loader and Style-Loader:** 
 
