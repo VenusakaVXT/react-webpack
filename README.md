@@ -93,6 +93,9 @@ Compile the project for production.
 $ npm run build
 ```
 
+## Note
+`--save-dev` indicates the installed npm package is for development and testing purposes only. The installed package and its version information will be logged in the `"devDependency"` section. If you don't declare `--save-dev`, it will default to `--save` meaning this package is an important part of the application and will be used during application running and saving information version is in `"dependencies"`.
+
 ## Results achieved
 Start the project using `npm start`.
 ```
@@ -108,5 +111,3 @@ Start the project using `npm start`.
 asset bundle.js 1.38 MiB [emitted] (name: main)
 asset index.html 275 bytes [emitted]
 ```
-
-# Note
