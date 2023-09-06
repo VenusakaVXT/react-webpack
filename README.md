@@ -3,7 +3,7 @@ Describes how to create a simple ReactJS project as [**Webpack**](https://github
 
 <div align="center">
 
-<img src="https://coursework.vschool.io/content/images/2018/05/react-webpack-1.png" />
+<img src="https://coursework.vschool.io/content/images/2018/05/react-webpack-1.png" alt="react+webpack" width="200" height="200">
 
 </div>
 
