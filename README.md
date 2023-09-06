@@ -51,6 +51,10 @@ To get ReactDOM support from Client declare from `react-dom/client` instead of `
 $ npm i webpack webpack-cli --save-dev
 ```
 
+In there:
+- `webpack`: The webpack node module.
+- `webpack-cli`: The command line tool we use to interact with webpack.
+
 ### Install Babel:
 ```
 $ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
