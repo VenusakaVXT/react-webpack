@@ -17,7 +17,7 @@ react-webpack # root folder
 ```
 
 # Setup
-**Install React and ReactDOM:**
+### Install React and ReactDOM:
 ```
 $ npm i react react-dom
 ```
@@ -32,12 +32,20 @@ Update the project when React and ReactDOM have new versions.
 $ npm i react@latest react-dom@latest
 ```
 
-**Install Webpack:**
+**Import React and ReactDOM into index.js file**
+```javascript
+import React from 'react'
+import ReactDOM from 'react-dom'
+```
+
+To get ReactDOM support from Client declare from `react-dom/client` instead of `react-dom`.
+
+### Install Webpack:
 ```
 $ npm i webpack webpack-cli --save-dev
 ```
 
-**Install Babel:**
+### Install Babel:
 ```
 $ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 ```
