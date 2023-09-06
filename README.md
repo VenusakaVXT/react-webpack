@@ -41,7 +41,7 @@ $ npm i react@latest react-dom@latest
 **Import React and ReactDOM into index.js file**
 ```javascript
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 ```
 
 To get ReactDOM support from Client declare from `react-dom/client` instead of `react-dom`.
@@ -57,7 +57,7 @@ In there:
 
 ### Install Babel:
 ```
-$ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+$ npm i @babel/core babel-loader @babel/preset-env @babel/preset-react -D
 ```
 
 In there:
