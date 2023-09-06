@@ -1,6 +1,12 @@
 # React Webpack
 Describes how to create a simple ReactJS project as [**Webpack**](https://github.com/webpack/webpack).
 
+<div align="center">
+
+<img src="https://coursework.vschool.io/content/images/2018/05/react-webpack-1.png" />
+
+</div>
+
 # Project Tree
 ```
 react-webpack # root folder
