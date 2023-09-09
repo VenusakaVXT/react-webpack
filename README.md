@@ -4,6 +4,7 @@ Describes how to create a simple ReactJS project as [**Webpack**](https://github
 <div align="center">
 
 <img src="https://coursework.vschool.io/content/images/2018/05/react-webpack-1.png" alt="react+webpack" width="400" height="200">
+
 ![npm](https://badgen.net/badge/npm/9.6.7?labelColor=blue&color=black)
 ![react](https://badgen.net/badge/react/18.2.0?labelColor=blue&color=black)
 ![react-dom](https://badgen.net/badge/react-dom/18.2.0?labelColor=blue&color=black)
