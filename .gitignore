@@ -1,6 +1,2 @@
 # dependencies
 /node_modules
-
-# Getting error "in the working copy of 'package-lock.json',
-# LF will be replaced by CRLF the next time Git touches it"
-package-lock.json
