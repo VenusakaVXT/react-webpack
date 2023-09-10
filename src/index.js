@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 function App() {
     return (
         <div id='wrapper'>
-            <h1 style={{color:'blue'}}>Hello World</h1>
+            <h1 style={{color:'blue'}}>Hello World!!! I'm VENUS</h1>
         </div>
     )
 }
